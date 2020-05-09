@@ -1,0 +1,112 @@
+@font-face {
+  font-family: tex-gyre-adventor;
+  src: url(font/texgyreadventor-regular.otf);
+}
+
+@font-face {
+  font-family: tex-gyre-adventor;
+  src: url(font/texgyreadventor-bold.otf);
+  font-weight: bold;
+}
+
+html{
+  height: 100%;
+}
+
+h1{
+  font-style: italic;
+  text-align: center;
+  color: #929190;
+  font-size: medium;
+  margin:5px;
+}
+h2{
+  margin-top:0;
+}
+
+body{
+  font-family: tex-gyre-adventor;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, pink, white, pink);
+  /*background-image: radial-gradient(circle, white, pink);*/
+  height: 100%;
+}
+
+.links{
+  background-color: transparent;
+  text-align: center;
+}
+
+.links a:link, a:visited{
+  display: inline-block;
+  margin: 30px;
+  font-weight: bold;
+  color: purple;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.top{
+  background-image: radial-gradient(circle, white, pink);
+  /*background-image: linear-gradient(to right, pink, white, pink);*/
+  padding-top: 30px;
+}
+
+.logo{
+  width:20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile_picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 40%;
+  height:auto;
+}
+
+.text_area{
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: large;
+  line-height: 30px;
+  min-height: 200%;
+}
+
+.banner_left, .banner_right{
+  clear:left;
+  margin:10px;
+  padding: 20px;
+  width: 80%;
+  color: #777674;
+  border-radius: 25px;
+}
+.banner_left:hover{
+  background-image: linear-gradient(to right, #777674, white);
+  color:pink;
+}
+.banner_right:hover{
+  background-image: linear-gradient(to left, #777674, white);
+color: pink;
+}
+
+.banner_left{
+  text-align: left;
+  float:left;
+  background-image: linear-gradient(to right, pink, white);
+}
+.banner_right{
+  text-align: right;
+  float:right;
+  background-image: linear-gradient(to left, pink, white);
+}
