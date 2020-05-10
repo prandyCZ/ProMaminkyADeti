@@ -78,14 +78,13 @@ body{
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   font-size: large;
   line-height: 30px;
 }
 
 .banner_left, .banner_right{
-  display: block;
-  clear:left;
+  display: inline-block;
   margin:10px;
   padding: 20px;
   width: 80%;
@@ -103,12 +102,10 @@ color: pink;
 
 .banner_left{
   text-align: left;
-  float:left;
   background-image: linear-gradient(to right, pink, white);
 }
 .banner_right{
   text-align: right;
-  float:right;
   background-image: linear-gradient(to left, pink, white);
 }
 .h2_left{
