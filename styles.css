@@ -78,12 +78,13 @@ body{
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 200px;
   font-size: large;
   line-height: 30px;
-  min-height: 200%;
 }
 
 .banner_left, .banner_right{
+  display: block;
   clear:left;
   margin:10px;
   padding: 20px;
@@ -109,4 +110,16 @@ color: pink;
   text-align: right;
   float:right;
   background-image: linear-gradient(to left, pink, white);
+}
+.h2_left{
+  clear:left;
+  margin:10px;
+  padding: 20px;
+  width: 80%;
+  color: #777674;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, pink, white);
+}
+.h2_left h2{
+  margin:0;
 }
